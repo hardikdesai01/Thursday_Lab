@@ -1,5 +1,6 @@
 package com.proj1;
 
+
 class Student{
 	private String name;
 	protected int id;
@@ -47,9 +48,9 @@ public class Studentdetail{
 		Grad g = new Grad();
 
 		//For undergraduate student
-		ug.setName("Adarsh");
-		ug.setId(100);
-		ug.grade = 70;
+		ug.setName("hardik");
+		ug.setId(108);
+		ug.grade = 75;
 		ug.age = 19;
 		System.out.println("Student name: "+ug.getName() +" Id: "+ ug.getId() +" Age: "+ ug.age +" Grade "+ ug.grade);
 		if(ug.isPassed(ug.grade))
@@ -59,9 +60,9 @@ public class Studentdetail{
 
 
 		//For Graduate student
-		g.setName("Ravi");
+		g.setName("mihir");
 		g.setId(193);
-		g.age = 21;
+		g.age = 20;
 		g.grade=78;
 		System.out.println("Student name: "+g.getName() +" Id: "+ g.getId() +" Age: "+ g.age +" Grade "+ g.grade);
 		if(g.isPassed(g.grade))
